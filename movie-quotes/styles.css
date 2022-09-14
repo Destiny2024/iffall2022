@@ -1,0 +1,28 @@
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+strong {
+    color: #23b63c;
+}
+
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.quotes {
+    margin: 30px;
+    font-family: sans-serif;
+    padding: 20px;
+    border: 1px #23b63c solid;
+    border-radius: 1px;
+}
+
+h1 {
+    text-align: center;
+}
