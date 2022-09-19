@@ -1,0 +1,35 @@
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
+}
+
+body{
+    border: 7px dashed yellow;
+    margin: 40px;
+    box-shadow: 0px 0px 20px #fce300;
+}
+p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: #fce300;
+    letter-spacing: .7px;
+}
+
+.lyric {
+    margin: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+h1, h2 {
+    color: white;
+}
+
+h1 {
+    letter-spacing: 2px;
+    font-size: 35px;
+    color: #fce300;
+}
