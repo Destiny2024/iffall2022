@@ -1,0 +1,483 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_coke {
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    color: white;
+    background-color: red;
+    font-family: Snell Roundhand, cursive;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px 10px;
+    box-sizing: border-box;
+}
+
+a#btn_coke:hover{
+    background-color: white;
+    color: red;
+}
+
+a#btn_apple {
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border: solid lightgrey 1px;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(92, 90, 90);
+}
+
+a#btn_ibm{
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    text-transform: uppercase;
+    border: 5px solid black;
+    text-decoration: none;
+    text-decoration-line: line-through;
+    padding: 5px 10px;
+    font-size: 30px;
+    color: black;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+
+a#btn_nerf{
+    display: inline-block;
+    position: relative;
+    top: 25%;
+    background-color: rgb(255, 140, 0);
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+
+a#btn_harley {
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    color: darkorange;
+    background-color:black;
+    font-family: Noto Sans, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 5px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border: 1px solid darkorange;
+}
+
+a#btn_michael {
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    color: black;
+    text-decoration: none;
+    background-color:burlywood;
+    font-family: Andale Mono, monospace;
+    font-size: 30px;
+    padding: 5px;
+    border: 2px solid black;
+
+}
+
+a#btn_ideo{
+    background-image: linear-gradient(orange, white);
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    font-size: 30px;
+    color: black;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    -webkit-box-shadow: -8px 9px 24px 0px rgba(255, 157, 56, 0.7);
+    -moz-box-shadow:    -8px 9px 24px 0px rgba(255, 157, 56, 0.7);
+    box-shadow:         -8px 9px 24px 0px rgba(255, 157, 56, 0.7);
+}
+
+a#btn_ideo:hover {
+    background-image: linear-gradient(cyan, white);
+    -webkit-box-shadow: -8px 9px 24px 0px cyan;
+    -moz-box-shadow:    -8px 9px 24px 0px cyan;
+    box-shadow:         -8px 9px 24px 0px cyan;
+
+}
+
+a#btn_sardella{
+    background-color: darkorange;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    color: rgb(4, 62, 4);
+    padding: 3px 12px;;
+    border-radius: 80px;
+    font-weight: bold;
+    font-size: 30px;
+    border: 5px solid rgb(4, 62, 4);
+}
+
+a#btn_craig{
+    display: inline-block;
+    position: relative;
+    top: 40%;
+    text-decoration: none;
+    color: rgb(93, 0, 93);
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+a#btn_craig:hover{
+    color: purple;
+    text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+}
+
+a#btn_lyft{
+    width: 35%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    top: 40%;
+    text-decoration: none;
+    color: rgb(223, 64, 133);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+a#btn_lyft:hover{
+    position: relative;
+    border: 3px dashed rgb(223, 64, 133);
+    -webkit-box-shadow: -8px 3px 24px 0px rgba(233, 64, 133, 0.7);
+    -moz-box-shadow:    -8px 3px 24px 0px rgba(233, 64, 133, 0.7);
+    box-shadow:         -8px 3px 24px 0px rgba(255, 64, 133, 0.7);
+}
+
+a#btn_samsung{
+    display: inline-block;
+    position: relative;
+    top: 40%;
+    font-family: Palatino, URW Palladio L, serif;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 15px;
+}
+
+a#btn_samsung:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.7);
+}
+
+a#btn_dcc .fa-star{
+    display: none;
+}
+
+a#btn_dcc{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    top: 30%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+
+a#btn_dcc:hover .fa-star{
+    display: inline-block;
+}
+
+a#btn_dcc:hover{
+    color: darkred;
+    text-decoration: underline;
+}
+
+a#btn_cn{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    top:35%;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 3px;
+}
+
+a#btn_cn:hover{
+   background-color: black;
+   color: white;
+   padding: 1px 3px;
+}
+
+a#btn_kittens{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    font-size: 10px;
+    color: red;
+    font-family: Chalkduster, fantasy;
+    -webkit-box-shadow: 0px 0px 24px 0px red;
+    -moz-box-shadow:    0px 0px 24px 0px red;
+    box-shadow:         0px 0px 24px 0px red;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+a#btn_kittens i{
+    font-size: 40px;
+}
+
+a#btn_kittens:hover i{
+    display: none;
+}
+
+a#btn_kittens span{
+    display: none;
+    color: black;
+}
+
+a#btn_kittens:hover span{
+    display: inline-block;
+    transform: scale(1.8) rotate(10deg);
+}
+
+a#btn_kittens:hover{
+    -webkit-box-shadow: none;
+    -moz-box-shadow:    none;
+    box-shadow:         none;
+}
+
+a#btn_nike {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_nike:hover {
+    background-color: black;
+    color: white;
+}
+
+a#btn_instagram{
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    color: black;
+}
+
+a#btn_instagram:hover{
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    color: white;
+}
+
+a#btn_garden{
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    text-decoration: none;
+    font-size: 20px;
+    width: 50%;
+    color: green;
+    font-weight: bold;
+}
+
+a#btn_garden:hover{
+    text-shadow: 2px 2px 1px rgb(129, 230, 122);
+}
+
+a#btn_army{
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    background-color: grey;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+a#btn_army .fa-star{
+   color: yellow;
+   margin-right: 3px;
+}
+
+a#btn_army:hover{
+    background-color: yellow;
+    color: black;
+}
+
+a#btn_army:hover .fa-star{
+    color: black;
+    margin-right: 3px;
+}
+
+a#btn_newyorker{
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: oblique;
+    font-family: Didot, serif;
+    color: black;
+}   
+
+a#btn_newyorker:hover i{
+    color: red;
+}
+
+a#btn_tucker{
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+a#btn_tucker:hover{
+    padding: 5px;
+    background-image: linear-gradient(45deg, red, orange, yellow, green);
+}
